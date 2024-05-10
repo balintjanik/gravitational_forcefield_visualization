@@ -8,4 +8,6 @@ Two planets are orbiting each other, with a vector grid as the background, and t
 
 ## Solar system visualization
 This is a different setup made inside the same project. A static "sun" is placed in the middle, and 16 "planets" are carefully placed on orbit around this sun. For the sake of simplicity, the planets are not affecting each other in this simulation.
+
+**Note:** these planets are not on a fix path, they are given a starting velocity that matches the gravitational force of the sun at the given distance, resulting in the planets staying in orbit.
 <img src="data/system_sample_short.gif" alt="sample gif">
